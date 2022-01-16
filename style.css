@@ -1,0 +1,198 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: rgb(224, 224, 224);
+    margin-top: 100px;    
+}
+.hd h3{
+    font-size: 225%;
+    text-align: center;
+    text-shadow: lightgray;
+} 
+h1{
+    margin-top: 100px;
+    font-size: 55px;
+}
+h2{
+    font-size: 25px;
+}
+
+h4{
+    margin-top: -25px;
+
+}
+.btn:active,.bt:hover{
+    background: mediumblue;
+    transition: .001s;
+}
+.btn{
+    position: relative;
+    margin-top: 200px;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: crimson;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.banner.cover{
+    position: relative;
+    left: 55%;
+}
+.boxx{
+    color: lightslategray;
+}
+.container1{
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.box1{
+    position: relative;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgb(124, 124, 124);
+    margin: 50px;
+    padding: 10px;
+}
+.star{
+    color: orange;
+}
+.bod{
+    position: relative;
+    margin: 10px;
+}
+.see{
+    color: crimson;
+    text-decoration: none;
+    position: relative;
+    left: 82%;
+}
+.container4{
+    position: relative;
+    margin-top: 70px;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+    padding-bottom: 1%;
+
+}
+.com{
+    padding-top:40px;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.inner-footer{
+    justify-content: space-evenly;
+}
+
+.slinks{
+    color: whitesmoke;
+    position: relative;
+    left: 45%;
+    justify-content: space-around;
+    text-align: center;
+}
+.bo{
+    color: whitesmoke;
+    text-align: center;
+}
+.b{
+    color: whitesmoke;
+    text-align: center;
+}
+.first-section{
+    display:flex;
+    width:95%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    outline-width: 100%;
+    margin-left: 5%;
+}
+.half-width{
+    width:50%;
+}
+.half-width img{
+    width:70%;
+}
+.banner{
+    display: flex;
+    position: relative;
+    padding-left: 140px;
+    grid-template-columns: 1fr 1fr;
+}
+footer{
+    padding: 0px;
+    box-sizing: border-box;
+     width: auto;
+}
+.con{
+    background-color: black;
+    margin: auto;
+}
+.foot{
+    height: 150px;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
+.cover:hover{
+    transform: scale(1.2);
+}
+.naam:hover{
+transform: scale(1.2);
+}
+.half-wid:hover{
+    transform: scale(1.2);
+}
+
+
+/* ----My Resposive Area---- */
+
+@media(max-width:1170px){
+    .first-section{
+        flex-direction: column;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .card2{
+        flex-direction: column;
+    }
+    .card3{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .bod.card1.card2.card3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+}  
